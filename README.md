@@ -1,94 +1,196 @@
 # Hilkov Ivan Andreevich
 
-**Frontend Engineer**
+**Senior Frontend Engineer**
 
-**Contact Information:**
-- Phone: [+7 (925) 834-55-30](tel:+79258345530)
-- Email: [strange.mole@gmail.com](mailto:strange.mole@gmail.com)
-- Telegram: [mrbzzz](https://t.me/mrbzzz)
-- GitHub: [ivan-hilckov](https://github.com/ivan-hilckov)
-- Instagram: [helios_m42](https://www.instagram.com/helios_m42/)
+---
 
+## Contact Information
 
-## About Me
+- **Phone:** [+7 (925) 834-55-30](tel:+79258345530)
+- **Email:** [strange.mole@gmail.com](mailto:strange.mole@gmail.com)
+- **Telegram:** [@mrbzzz](https://t.me/mrbzzz)
+- **GitHub:** [ivan-hilckov](https://github.com/ivan-hilckov)
+- **Instagram:** [@helios_m42](https://www.instagram.com/helios_m42/)
 
-Frontend engineer with over 17 years of professional experience. I’ve worked in both high-tech startups and large corporations, successfully delivering products of various complexity. I’ve repeatedly launched products from scratch — from architectural design to release and long-term support. Experienced in managing teams of up to 8 people, including in distributed environments.
+---
 
-I strive to balance technical solutions with business goals, focusing on results and user value. Calm and responsible under pressure. I believe in leading by example as the best way to motivate a team.
+## Executive Summary
 
-## Key Skills
+Frontend engineer with over **17 years** of professional experience across high-tech startups and large corporations. Demonstrated expertise in delivering complex software products from architectural design through deployment and long-term maintenance.
 
-- **Frontend:** React, React Native, Next.js, Redux, TypeScript, JavaScript, Vite, Webpack, TailwindCSS, Cypress
-- **Backend:** FastAPI, Django, Flask, Node.js (Nest, Express), Python, Redis, Celery, PostgreSQL
-- **DevOps & Infra:** Docker, Git, CI/CD, FFmpeg, gPhoto2, LTE-modems, Raspberry Pi
-- **GIS & 3D:** Cesium, Mapbox, Leaflet, Potree
-- **Soft Skills:** Leadership, mentorship, agile methodologies, communication, time management
-- **Languages:** Russian (native), English (B2)
+**Leadership Experience:** Team management of up to 8 engineers in distributed environments, with focus on process optimization and knowledge transfer.
+
+**Core Philosophy:** Strategic balance between technical excellence and business objectives, emphasizing measurable results and user-centric solutions. Proven track record of performance under pressure with emphasis on evidence-based decision making.
+
+---
+
+## Technical Competencies
+
+### Frontend Technologies
+
+- **Core Frameworks:** React, React Native, Next.js, Redux
+- **Languages:** TypeScript, JavaScript (ES6+)
+- **Build Systems:** Vite, Webpack, Rollup
+- **Styling Solutions:** TailwindCSS, CSS-in-JS, SCSS
+- **Testing Frameworks:** Cypress, Jest, React Testing Library
+
+### Backend & Infrastructure
+
+- **Python Stack:** FastAPI, Django, Flask
+- **Node.js Ecosystem:** NestJS, Express
+- **Database Systems:** PostgreSQL, Redis, MongoDB
+- **Message Queues:** Celery, RabbitMQ
+- **DevOps:** Docker, CI/CD pipelines, GitHub Actions
+
+### Specialized Domains
+
+- **Geospatial Technologies:** Cesium, Mapbox, Leaflet, Potree
+- **Media Processing:** FFmpeg, gPhoto2
+- **Hardware Integration:** LTE modems, Raspberry Pi, IoT devices
+- **Mobile Development:** React Native (iOS/Android)
+
+### Professional Skills
+
+- **Team Leadership:** Agile methodologies, code review processes, mentorship
+- **Project Management:** Technical roadmap planning, cross-functional collaboration
+- **Communication:** Technical documentation, stakeholder presentation
+- **Languages:** Russian (native), English (B2 level)
+
+---
 
 ## Professional Experience
 
-**HRONIKA**, Moscow
-*Frontend & Full-stack Engineer*
-*Apr 2025 — Present*
-- Launched a prototype of an autonomous timelapse system on Raspberry Pi 4 + Canon 1100D + LTE modem, ensuring stable 24/7 shooting.
-- Designed a pull-to-trigger architecture: the "box" requests tasks from the server and uploads RAW images to the cloud.
-- Integrated PyNET-CA (PyTorch) for adaptive RAW processing; reduced 4K timelapse assembly time from 100 to 70 minutes (–30%).
-- Developed the frontend (React + HeroUI + TailwindCSS): dashboard ... photo viewer, timelapse generation; set up e2e tests in Cypress.
-- Built a fault-tolerant backend on FastAPI and Celery/Redis; implemented REST API endpoints (auth, cameras, photos, timelapses).
-- Defined the BOM (UPS HAT, Li-ion batteries, IP67 enclosure, solar panel) for autonomous power management.
-- Prepared documentation and roadmap; successfully submitted an application to the Sber500 accelerator.
-- Website: [hronika.tech](https://hronika.tech)
+### **HRONIKA** | Moscow
 
-**Tekara**, Moscow
-*Frontend Lead Engineer*
-*May 2024 — May 2025*
-- Developed machinery and spare parts catalogs, shopping cart, and maintenance request flow, increasing conversion by 15%.
-- Created and maintained a UI component library for consistent styling.
-- Implemented an anti-scraping mechanism, reducing unauthorized traffic by 75%.
-- Optimized the SSR storefront on Next.js for loads up to 70,000 RPS with CDN caching.
-- Set up CI/CD and UI/UX testing in Cypress, ensuring release stability.
-- Website: [tekara.ru](https://tekara.ru)
+**Frontend & Full-stack Engineer** | _April 2025 — Present_
 
-**Tvigle**, Moscow
-*Frontend Lead Engineer*
-*May 2024 — Oct 2024*
-- Led the development of a mobile video service on React Native (iOS & Android).
-- Set up CI/CD and automated beta deployments via TestFlight.
-- Integrated the VK Ads ad network (VAST 4.3): preroll/midroll/postroll and companion banners.
-- Website: [tvigle.ru](https://www.tvigle.ru/)
+**Project Overview:** Development of autonomous timelapse photography system for construction and infrastructure monitoring.
 
-**START.ru**, Moscow
-*Frontend Lead Engineer*
-*Jan 2023 — May 2024*
-- Launched the "Cinema on TV" section and video player integrated into the Smart TV storefront.
-- Optimized API requests during peak periods ("Slovo patsana"), reducing latency by 40%.
-- Conducted an architectural refactor of the auth flow and subscriptions; mentored a team of 6 developers.
-- Website: [start.ru](https://start.ru)
+**Technical Achievements:**
 
-**Skyeer**, Moscow
-*Frontend Lead Engineer*
-*Apr 2017 — Jan 2023*
-- Launched the MVP of an unmanned biathlon for Gazprom: user portal, monitoring, and map layer printing.
-- Developed the UI for the waste monitoring service ([reo.ru/flyby](https://reo.ru/flyby)).
-- Created the UI for UAV-based quarry road monitoring (habr)[https://habr.com/ru/companies/nlmk/articles/650419/]).
-- Implemented the client side of the cloud aerial processing service [attractor.aero](attractor.aero))) and coordinated the API with the backend team.
-- Integrated Cesium, Mapbox, and Potree; optimized 3D rendering and streaming.
-- Built a front-end team of up to 8 people, introduced code review, CI/CD processes, and internal workshops.
-- Website: [skyeermap.com](https://skyeermap.com/ENG)
+- Engineered prototype of autonomous timelapse system using Raspberry Pi 4, Canon 1100D, and LTE connectivity
+- Implemented pull-based architecture for task distribution and cloud-based RAW image storage
+- Integrated PyNET-CA (PyTorch) for adaptive RAW processing, achieving 30% reduction in 4K timelapse assembly time
+- Developed responsive web application using React, HeroUI, and TailwindCSS
+- Architected fault-tolerant backend infrastructure with FastAPI and Celery/Redis
+- Designed Bill of Materials for autonomous power management including UPS HAT, Li-ion batteries, IP67 enclosure
+- Prepared comprehensive technical documentation and successfully qualified for Sber500 accelerator program
 
-**Sovzond**, Moscow
-*Senior Frontend Engineer*
-*Jun 2013 — May 2015*
-- Developed the UI for the "Satellite Imagery Archive" and "Archive Search" on Backbone.js.
-- Created geofilters, timeline, and responsive maps; optimized lazy-loading and minification.
-- Website: [sovzond.ru](https://sovzond.ru)
+**Website:** [hronika.tech](https://hronika.tech)
 
-## Video 
+---
 
-[![Skyer UI/UX](https://img.youtube.com/vi/df4GsBd9a_U/maxresdefault.jpg)](https://youtu.be/df4GsBd9a_U)
+### **Tekara** | Moscow
 
-## Education
+**Frontend Lead Engineer** | _May 2024 — May 2025_
 
-**Kuban State University**, Krasnodar
-*Faculty of Theoretical Physics*
-*2003 — 2009*
+**Project Overview:** E-commerce platform for industrial machinery and spare parts distribution.
+
+**Technical Achievements:**
+
+- Developed comprehensive catalog system and shopping cart functionality, resulting in 15% conversion improvement
+- Established and maintained design system and UI component library for consistent user experience
+- Implemented advanced anti-scraping mechanisms, achieving 75% reduction in unauthorized traffic
+- Optimized server-side rendered storefront using Next.js for handling up to 70,000 requests per second
+- Established CI/CD pipeline and comprehensive UI/UX testing suite using Cypress
+
+**Website:** [tekara.ru](https://tekara.ru)
+
+---
+
+### **Tvigle** | Moscow
+
+**Frontend Lead Engineer** | _May 2024 — October 2024_
+
+**Project Overview:** Cross-platform mobile video streaming application development.
+
+**Technical Achievements:**
+
+- Led development of React Native application for iOS and Android platforms
+- Implemented automated CI/CD pipeline with TestFlight integration for beta distribution
+- Integrated VK Ads network with VAST 4.3 standard support for preroll, midroll, postroll, and companion banner advertisements
+
+**Website:** [tvigle.ru](https://www.tvigle.ru/)
+
+---
+
+### **START.ru** | Moscow
+
+**Frontend Lead Engineer** | _January 2023 — May 2024_
+
+**Project Overview:** Smart TV video streaming platform and web application development.
+
+**Technical Achievements:**
+
+- Launched "Cinema on TV" section with integrated video player for Smart TV platform
+- Optimized API request patterns during high-traffic periods, achieving 40% latency reduction
+- Conducted comprehensive architectural refactoring of authentication and subscription systems
+- Mentored development team of 6 engineers with focus on code quality and best practices
+
+**Website:** [start.ru](https://start.ru)
+
+---
+
+### **Skyeer** | Moscow
+
+**Frontend Lead Engineer** | _April 2017 — January 2023_
+
+**Project Overview:** Geospatial data processing and drone monitoring platform development.
+
+**Technical Achievements:**
+
+- Developed MVP of unmanned aerial vehicle monitoring system for Gazprom including user portal and map layer printing
+- Created user interface for waste monitoring service ([reo.ru/flyby](https://reo.ru/flyby))
+- Implemented UI for UAV-based quarry road monitoring system ([technical article](https://habr.com/ru/companies/nlmk/articles/650419/))
+- Developed client-side application for cloud aerial data processing service ([attractor.aero](https://attractor.aero))
+- Integrated advanced 3D visualization technologies including Cesium, Mapbox, and Potree with performance optimization
+- Built and managed frontend development team of up to 8 engineers
+- Established code review processes, CI/CD pipelines, and internal knowledge sharing workshops
+
+**Website:** [skyeermap.com](https://skyeermap.com/ENG)
+
+---
+
+### **Sovzond** | Moscow
+
+**Senior Frontend Engineer** | _June 2013 — May 2015_
+
+**Project Overview:** Satellite imagery archive and search platform development.
+
+**Technical Achievements:**
+
+- Developed user interface for satellite imagery archive and search functionality using Backbone.js
+- Implemented advanced geofiltering, timeline controls, and responsive mapping components
+- Optimized application performance through lazy-loading and asset minification strategies
+
+**Website:** [sovzond.ru](https://sovzond.ru)
+
+---
+
+## Portfolio Demonstration
+
+[![Skyeer GIS Platform Demo](./cesium.png)](https://youtu.be/df4GsBd9a_U)
+
+_Interactive demonstration of geospatial data processing platform capabilities_
+
+---
+
+## Academic Background
+
+**Kuban State University** | Krasnodar  
+_Faculty of Theoretical Physics_ | _2003 — 2009_
+
+**Relevant Coursework:** Mathematical modeling, computational physics, statistical analysis, algorithm design
+
+---
+
+## Research Interests
+
+- Computer graphics and 3D visualization optimization
+- Geospatial data processing algorithms
+- Real-time media processing and streaming
+- Human-computer interaction in complex data environments
+
+---
+
+**Available for technical consultation and project collaboration**
