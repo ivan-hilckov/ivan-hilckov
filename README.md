@@ -11,6 +11,7 @@
 - **Telegram:** [@mrbzzz](https://t.me/mrbzzz)
 - **GitHub:** [ivan-hilckov](https://github.com/ivan-hilckov)
 - **Instagram:** [@helios_m42](https://www.instagram.com/helios_m42/)
+- **Pdf:** [cv_ivan_hilkov.pdf](./cv_ivan_hilkov.pdf)
 
 ---
 
@@ -255,8 +256,6 @@ _Faculty of Theoretical Physics_ | _2003 — 2009_
 - Geospatial data processing algorithms
 - Real-time media processing and streaming
 - Human-computer interaction in complex data environments
-
----
 
 ---
 
