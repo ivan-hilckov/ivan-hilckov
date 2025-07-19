@@ -10,7 +10,11 @@
 - Instagram: [helios_m42](https://www.instagram.com/helios_m42/)
 
 
-> A professional engineer with 17 years of web and IoT development experience. I drive team efficiency and integrate AI solutions for automation.
+## About Me
+
+Frontend engineer with over 17 years of professional experience. I’ve worked in both high-tech startups and large corporations, successfully delivering products of various complexity. I’ve repeatedly launched products from scratch — from architectural design to release and long-term support. Experienced in managing teams of up to 8 people, including in distributed environments.
+
+I strive to balance technical solutions with business goals, focusing on results and user value. Calm and responsible under pressure. I believe in leading by example as the best way to motivate a team.
 
 ## Key Skills
 
@@ -66,11 +70,11 @@
 *Apr 2017 — Jan 2023*
 - Launched the MVP of an unmanned biathlon for Gazprom: user portal, monitoring, and map layer printing.
 - Developed the UI for the waste monitoring service ([reo.ru/flyby](https://reo.ru/flyby)).
-- Created the UI for UAV-based quarry road monitoring (pilot .../650419/](https://habr.com/ru/companies/nlmk/articles/650419/)).
-- Implemented the client side of the cloud aerial processing service ...https://attractor.aero)) and coordinated the API with the backend team.
+- Created the UI for UAV-based quarry road monitoring (habr)[https://habr.com/ru/companies/nlmk/articles/650419/]).
+- Implemented the client side of the cloud aerial processing service [attractor.aero](attractor.aero))) and coordinated the API with the backend team.
 - Integrated Cesium, Mapbox, and Potree; optimized 3D rendering and streaming.
 - Built a front-end team of up to 8 people, introduced code review, CI/CD processes, and internal workshops.
-- Website: [skyeermap.com/ru](https://skyeermap.com/ru)
+- Website: [skyeermap.com](https://skyeermap.com/ENG)
 
 **Sovzond**, Moscow
 *Senior Frontend Engineer*
@@ -78,6 +82,10 @@
 - Developed the UI for the "Satellite Imagery Archive" and "Archive Search" on Backbone.js.
 - Created geofilters, timeline, and responsive maps; optimized lazy-loading and minification.
 - Website: [sovzond.ru](https://sovzond.ru)
+
+## Video 
+
+[![Skyer UI/UX](https://img.youtube.com/vi/df4GsBd9a_U/maxresdefault.jpg)](https://youtu.be/df4GsBd9a_U)
 
 ## Education
 
