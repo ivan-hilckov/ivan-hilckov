@@ -11,7 +11,7 @@
 - **Telegram:** [@mrbzzz](https://t.me/mrbzzz)
 - **GitHub:** [ivan-hilckov](https://github.com/ivan-hilckov)
 - **Instagram:** [@helios_m42](https://www.instagram.com/helios_m42/)
-- **Pdf:** [cv_ivan_hilkov.pdf](./cv_ivan_hilkov.pdf)
+- **PDF:** [cv_ivan_hilkov.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/cv_ivan_hilkov.pdf)
 
 ---
 
