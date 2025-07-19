@@ -1,6 +1,6 @@
 # Hilkov Ivan Andreevich
 
-**Senior Frontend Engineer**
+**Lead Frontend Engineer**
 
 ---
 
@@ -140,12 +140,14 @@ Frontend engineer with over **17 years** of professional experience across high-
 **Technical Achievements:**
 
 - Developed MVP of unmanned aerial vehicle monitoring system for Gazprom including user portal and map layer printing
+- Created proprietary component library that was subsequently utilized across more than 5 projects
 - Created user interface for waste monitoring service ([reo.ru/flyby](https://reo.ru/flyby))
 - Implemented UI for UAV-based quarry road monitoring system ([technical article](https://habr.com/ru/companies/nlmk/articles/650419/))
 - Developed client-side application for cloud aerial data processing service ([attractor.aero](https://attractor.aero))
 - Integrated advanced 3D visualization technologies including Cesium, Mapbox, and Potree with performance optimization
 - Built and managed frontend development team of up to 8 engineers
 - Established code review processes, CI/CD pipelines, and internal knowledge sharing workshops
+- Achieved 89% test coverage using Selenium automated testing framework
 
 **Website:** [skyeermap.com](https://skyeermap.com/ENG)
 
@@ -184,12 +186,77 @@ _Faculty of Theoretical Physics_ | _2003 — 2009_
 
 ---
 
+## Personal Projects
+
+### **Shawarma Bot** | TypeScript, Node.js, Telegram API
+
+**Production-ready Telegram bot with REST API for food ordering**
+
+**Technical Implementation:**
+
+- Developed comprehensive Telegram bot using Node.js with Fastify REST API backend
+- Implemented TypeScript architecture with 82.1% type coverage and 77% test coverage (619+ tests)
+- Integrated PostgreSQL database with Redis caching for optimal performance
+- Created Docker containerization with production deployment across 6 SSL-secured domains
+- Built Telegram Mini App with responsive web interface
+- Established comprehensive API documentation using Swagger UI
+
+**Repository:** [github.com/ivan-hilckov/shawarma-bot](https://github.com/ivan-hilckov/shawarma-bot)
+
+---
+
+### **TimeLaps Box** | Python, Raspberry Pi, Hardware Integration
+
+**Autonomous timelapse photography system for remote monitoring**
+
+**Technical Implementation:**
+
+- Engineered autonomous camera system using Raspberry Pi with LTE connectivity
+- Developed cloud-based image processing pipeline with automated upload mechanisms
+- Implemented power management systems for extended autonomous operation
+
+**Repository:** [github.com/helius-lab/timelapsbox](https://github.com/helius-lab/timelapsbox)
+
+---
+
+### **Showcase Bot** | Node.js, Telegram API
+
+**Demonstration bot for showcasing interactive features and capabilities**
+
+**Technical Implementation:**
+
+- Created feature-rich Telegram bot demonstrating advanced API capabilities
+- Implemented modular architecture for extensible functionality
+- Developed comprehensive showcase of interactive elements and user experience patterns
+
+**Repository:** [github.com/ivan-hilckov/showcase-bot-main](https://github.com/ivan-hilckov/showcase-bot-main)
+
+---
+
+### **Gemini Viewer** | JavaScript, 3D Graphics, WebGL
+
+**Interactive 3D visualization tool with advanced navigation controls**
+
+![Gemini Viewer Navigation](./nav_cube.gif)
+
+**Technical Implementation:**
+
+- Developed 3D visualization interface with intuitive navigation cube controls
+- Implemented WebGL-based rendering pipeline for optimal performance
+- Created responsive user interface with advanced 3D interaction patterns
+
+**Repository:** [github.com/ivan-hilckov/gemini-viewer](https://github.com/ivan-hilckov/gemini-viewer)
+
+---
+
 ## Research Interests
 
 - Computer graphics and 3D visualization optimization
 - Geospatial data processing algorithms
 - Real-time media processing and streaming
 - Human-computer interaction in complex data environments
+
+---
 
 ---
 
