@@ -11,6 +11,7 @@
 - **Telegram:** [@mrbzzz](https://t.me/mrbzzz)
 - **GitHub:** [ivan-hilckov](https://github.com/ivan-hilckov)
 - **Instagram:** [@helios_m42](https://www.instagram.com/helios_m42/)
+- **Lightroom presets:** [xmp.zip](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/xmp.zip)
 - **PDF:** [cv_ivan_hilkov.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/cv_ivan_hilkov.pdf)
 
 ---
@@ -247,6 +248,24 @@ _Faculty of Theoretical Physics_ | _2003 — 2009_
 - Created responsive user interface with advanced 3D interaction patterns
 
 **Repository:** [github.com/ivan-hilckov/gemini-viewer](https://github.com/ivan-hilckov/gemini-viewer)
+
+---
+
+### **Lightroom Presets Collection** | Photography, Adobe Lightroom
+
+**Custom color grading and tone mapping presets for professional photography**
+
+**Technical Implementation:**
+
+- Developed comprehensive collection of Adobe Lightroom presets for various photography styles
+- Created tone mapping algorithms and color grading workflows for consistent visual aesthetics
+- Implemented parametric adjustments for different lighting conditions and subject matter
+- Established standardized post-processing pipeline for efficient workflow optimization
+
+**Resources:**
+
+- **Browse Presets:** [View XMP Collection](https://github.com/ivan-hilckov/ivan-hilckov/tree/main/xmp)
+- **Download Archive:** [xmp.zip](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/xmp.zip)
 
 ---
 
