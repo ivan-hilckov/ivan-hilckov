@@ -257,10 +257,10 @@ _Faculty of Theoretical Physics_ | _2003 — 2009_
 
 **Technical Implementation:**
 
-- Developed comprehensive collection of Adobe Lightroom presets for various photography styles
-- Created tone mapping algorithms and color grading workflows for consistent visual aesthetics
-- Implemented parametric adjustments for different lighting conditions and subject matter
-- Established standardized post-processing pipeline for efficient workflow optimization
+- Developed comprehensive collection of Adobe Lightroom presets for vintage film and cinematic aesthetics
+- Carefully calibrated white balance adjustments for enhanced color accuracy
+- Implemented controlled grain texture to achieve authentic analog film characteristics
+- Inspired by professional cinematography techniques from leading visual artists: [GxAce](https://www.youtube.com/@GxAce), [Really Nice Images](https://reallyniceimages.com/index.html), [Peter McKinnon](https://www.instagram.com/petermckinnon/?hl=en), [Cam Mackey](https://www.instagram.com/cammacky)
 
 **Resources:**
 
