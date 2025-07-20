@@ -257,15 +257,16 @@ _Faculty of Theoretical Physics_ | _2003 — 2009_
 
 **Technical Implementation:**
 
-- Developed comprehensive collection of Adobe Lightroom presets for vintage film and cinematic aesthetics
-- Carefully calibrated white balance adjustments for enhanced color accuracy
-- Implemented controlled grain texture to achieve authentic analog film characteristics
-- Inspired by professional cinematography techniques from leading visual artists: [GxAce](https://www.youtube.com/@GxAce), [Really Nice Images](https://reallyniceimages.com/index.html), [Peter McKinnon](https://www.instagram.com/petermckinnon/?hl=en), [Cam Mackey](https://www.instagram.com/cammacky)
+- Developed collection of Adobe Lightroom presets for dark film and cinematic aesthetic
+- Implemented careful white balance adjustments for enhanced color grading
+- Applied grain effects for authentic analog film reproduction
+- Inspired by professional photographers and colorists including [GxAce](https://www.youtube.com/@GxAce), [Really Nice Images](https://reallyniceimages.com/index.html), [Peter McKinnon](https://www.instagram.com/petermckinnon/?hl=en), and [Cameron Mackie](https://www.instagram.com/cammacky)
 
 **Resources:**
 
 - **Browse Presets:** [View XMP Collection](https://github.com/ivan-hilckov/ivan-hilckov/tree/main/xmp)
 - **Download Archive:** [xmp.zip](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/xmp.zip)
+- **Installation Guide:** [INSTALL.md](https://github.com/ivan-hilckov/ivan-hilckov/blob/main/xmp/INSTALL.md)
 
 ---
 
