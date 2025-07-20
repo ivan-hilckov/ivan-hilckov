@@ -6,7 +6,6 @@
 
 ## Contact Information
 
-- **Phone:** [+7 (925) 834-55-30](tel:+79258345530)
 - **Email:** [strange.mole@gmail.com](mailto:strange.mole@gmail.com)
 - **Telegram:** [@mrbzzz](https://t.me/mrbzzz)
 - **GitHub:** [ivan-hilckov](https://github.com/ivan-hilckov)
