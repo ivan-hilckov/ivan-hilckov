@@ -91,14 +91,26 @@ def convert_markdown_to_pdf(
     else:
         stylesheets.append(CSS(string=DEFAULT_CSS))
 
-    HTML(string=html_doc, base_url=base_url).write_pdf(target=str(pdf_path), stylesheets=stylesheets)
+    HTML(string=html_doc, base_url=base_url).write_pdf(
+        target=str(pdf_path), stylesheets=stylesheets
+    )
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Convert Markdown to PDF using WeasyPrint")
-    parser.add_argument("markdown_file", type=Path, help="Path to the source Markdown file (e.g., README.md)")
-    parser.add_argument("--output", "-o", type=Path, default=Path("README.pdf"), help="Output PDF path")
-    parser.add_argument("--css", type=Path, default=None, help="Optional CSS file for PDF styling")
+    parser = argparse.ArgumentParser(
+        description="Convert Markdown to PDF using WeasyPrint"
+    )
+    parser.add_argument(
+        "markdown_file",
+        type=Path,
+        help="Path to the source Markdown file (e.g., README.md)",
+    )
+    parser.add_argument(
+        "--output", "-o", type=Path, default=Path("CV.pdf"), help="Output PDF path"
+    )
+    parser.add_argument(
+        "--css", type=Path, default=None, help="Optional CSS file for PDF styling"
+    )
     args = parser.parse_args()
 
     convert_markdown_to_pdf(args.markdown_file, args.output, args.css)

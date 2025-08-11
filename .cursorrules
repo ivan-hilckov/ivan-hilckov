@@ -1,0 +1,153 @@
+# Cursor Rules for Ivan Hilkov's Resume Project
+
+## Project Overview
+
+This is a personal resume/CV project containing:
+
+- Professional resume in Markdown format (README.md)
+- Adobe Lightroom XMP presets collection
+- PDF generation scripts and styling
+- Documentation and installation guides
+
+## Writing Style Guidelines
+
+### Language and Tone
+
+- **Primary Language:** English for all technical content
+- **Writing Style:** Scientific, professional, technical documentation style
+- **Tone:** Formal, precise, evidence-based
+- **NO EMOJIS:** Never use emojis in any content, especially in resume/CV sections
+
+### Resume/CV Content Rules
+
+- Use **bold formatting** for company names, job titles, and section headers
+- Use _italic formatting_ for date ranges and employment periods
+- Maintain consistent formatting across all professional experience sections
+- Include quantifiable achievements with specific metrics when possible
+- Use technical terminology appropriately for the target audience
+- Keep descriptions concise but comprehensive
+
+### Technical Documentation
+
+- Use clear, precise language for technical implementations
+- Include relevant technical stack information
+- Provide working links to repositories, websites, and resources
+- Use proper markdown formatting for code blocks, links, and lists
+
+## Content Management
+
+### Resume Updates
+
+- When updating professional experience, maintain chronological order (newest first)
+- Ensure all external links are functional and properly formatted
+- Keep technical competencies section current with relevant technologies
+- Maintain consistent date formatting: _Month Year — Month Year_ or _Month Year — Present_
+
+### Project Documentation
+
+- Include clear technical implementation details
+- Provide repository links where applicable
+- Add brief but informative project descriptions
+- Include relevant technical stack information
+
+### XMP Presets Documentation
+
+- Maintain installation guides with clear step-by-step instructions
+- Include compatibility information for Adobe Lightroom versions
+- Provide proper attribution for inspiration sources with working links
+- Keep download links and archive files up to date
+
+## File Management Rules
+
+### Markdown Files
+
+- Use consistent heading hierarchy (# ## ###)
+- Maintain proper line spacing between sections
+- Use descriptive link text instead of raw URLs
+- Ensure all relative paths are correct
+
+### Scripts and Tools
+
+- Keep PDF generation scripts functional and well-documented
+- Maintain CSS styling consistency with professional standards
+- Include clear comments in Python scripts for maintainability
+
+### Assets
+
+- Keep image assets optimized for web viewing
+- Maintain proper file organization in project directories
+- Ensure all referenced files exist and are accessible
+
+## Quality Standards
+
+### Spelling and Grammar
+
+- Always check for spelling errors and grammatical mistakes
+- Use proper technical terminology
+- Maintain consistency in technical terms across documents
+- Proofread all content before finalizing
+
+### Link Validation
+
+- Ensure all external links are functional
+- Use proper markdown link formatting
+- Include descriptive link text that explains the destination
+- Test repository links and download links regularly
+
+### Professional Standards
+
+- Maintain high professional standards in all content
+- Ensure accuracy of technical information
+- Keep achievement metrics factual and verifiable
+- Review content for clarity and conciseness
+
+## AI Assistant Behavior
+
+### When Making Changes
+
+- Always maintain the established professional tone
+- Preserve existing formatting patterns
+- Check for consistency across similar sections
+- Verify that changes align with the scientific writing style preference
+
+### When Adding Content
+
+- Follow established patterns for similar content types
+- Include appropriate technical details for the target audience
+- Maintain the overall structure and organization
+- Ensure new content integrates seamlessly with existing material
+
+### When Fixing Issues
+
+- Address spelling and grammar errors immediately
+- Fix broken links and update outdated information
+- Improve clarity while maintaining technical accuracy
+- Enhance professional presentation without changing core content
+
+## Special Considerations
+
+- This is a professional resume project - maintain highest quality standards
+- Content should appeal to technical recruiters and engineering managers
+- All changes should enhance professional presentation
+- Preserve the balance between technical detail and readability
+
+## Environment and Dependencies
+
+- Python environment and package management uses `uv`.
+- Default virtual environment location is `${workspaceFolder}/.venv`.
+- Core dependencies for this project:
+  - `flask` (preview server)
+  - `markdown` (Markdown to HTML rendering)
+  - `weasyprint` (Markdown-to-PDF via HTML/CSS)
+
+### Standard Commands
+
+- Create environment: `uv venv`
+- Install dependencies: `uv pip install flask markdown weasyprint`
+- Run preview server (HTML with PDF CSS): `uv run scripts/dev_preview.py --port 8765 --markdown README.md --css styles/pdf.css`
+- Generate PDF: `uv run scripts/md_to_pdf.py README.md --output README.pdf --css styles/pdf.css`
+
+### VS Code Integration
+
+- VS Code is configured to use `${workspaceFolder}/.venv/bin/python`.
+- Tasks are provided for preview and PDF generation and will use the configured interpreter.

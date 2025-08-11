@@ -17,3 +17,6 @@ pre {
   padding: 10px;
   border-radius: 6px;
 }
+img {
+  max-width: 100%;
+}

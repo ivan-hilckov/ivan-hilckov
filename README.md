@@ -1,6 +1,6 @@
 # Hilkov Ivan Andreevich
 
-**Lead Frontend Engineer**
+**Lead Fullstack Engineer**
 
 ---
 
@@ -11,7 +11,7 @@
 - **GitHub:** [ivan-hilckov](https://github.com/ivan-hilckov)
 - **Instagram:** [@helios_m42](https://www.instagram.com/helios_m42/)
 - **Lightroom presets:** [xmp.zip](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/xmp.zip)
-- **PDF:** [cv_ivan_hilkov.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/cv_ivan_hilkov.pdf)
+- **PDF:** [cv_ivan_hilkov.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf)
 
 ---
 
@@ -22,8 +22,6 @@ Frontend engineer with over **17 years** of professional experience across high-
 **Leadership Experience:** Team management of up to 8 engineers in distributed environments, with focus on process optimization and knowledge transfer.
 
 **Core Philosophy:** Strategic balance between technical excellence and business objectives, emphasizing measurable results and user-centric solutions. Proven track record of performance under pressure with emphasis on evidence-based decision making.
-
----
 
 ## Technical Competencies
 
@@ -63,7 +61,7 @@ Frontend engineer with over **17 years** of professional experience across high-
 
 ### **HRONIKA** | Moscow
 
-**Frontend & Full-stack Engineer** | _April 2025 — Present_
+**Co-Founder** | _April 2025 — Present_
 
 **Project Overview:** Development of autonomous timelapse photography system for construction and infrastructure monitoring.
 
@@ -71,7 +69,6 @@ Frontend engineer with over **17 years** of professional experience across high-
 
 - Engineered prototype of autonomous timelapse system using Raspberry Pi 4, Canon 1100D, and LTE connectivity
 - Implemented pull-based architecture for task distribution and cloud-based RAW image storage
-- Integrated PyNET-CA (PyTorch) for adaptive RAW processing, achieving 30% reduction in 4K timelapse assembly time
 - Developed responsive web application using React, HeroUI, and TailwindCSS
 - Architected fault-tolerant backend infrastructure with FastAPI and Celery/Redis
 - Designed Bill of Materials for autonomous power management including UPS HAT, Li-ion batteries, IP67 enclosure
@@ -172,7 +169,7 @@ Frontend engineer with over **17 years** of professional experience across high-
 
 ## Portfolio Demonstration
 
-[![Skyeer GIS Platform Demo](./cesium.png)](https://youtu.be/df4GsBd9a_U)
+[![Skyeer GIS Platform Demo](./cesium.jpg)](https://youtu.be/df4GsBd9a_U)
 
 _Interactive demonstration of geospatial data processing platform capabilities_
 
@@ -191,62 +188,15 @@ _Faculty of Theoretical Physics_ | _2003 — 2009_
 
 ### **Shawarma Bot** | TypeScript, Node.js, Telegram API
 
-**Production-ready Telegram bot with REST API for food ordering**
-
-**Technical Implementation:**
-
-- Developed comprehensive Telegram bot using Node.js with Fastify REST API backend
-- Implemented TypeScript architecture with 82.1% type coverage and 77% test coverage (619+ tests)
-- Integrated PostgreSQL database with Redis caching for optimal performance
-- Created Docker containerization with production deployment across 6 SSL-secured domains
-- Built Telegram Mini App with responsive web interface
-- Established comprehensive API documentation using Swagger UI
-
-**Repository:** [github.com/ivan-hilckov/shawarma-bot](https://github.com/ivan-hilckov/shawarma-bot)
-
----
+[github.com/ivan-hilckov/shawarma-bot](https://github.com/ivan-hilckov/shawarma-bot)
 
 ### **TimeLaps Box** | Python, Raspberry Pi, Hardware Integration
 
-**Autonomous timelapse photography system for remote monitoring**
-
-**Technical Implementation:**
-
-- Engineered autonomous camera system using Raspberry Pi with LTE connectivity
-- Developed cloud-based image processing pipeline with automated upload mechanisms
-- Implemented power management systems for extended autonomous operation
-
-**Repository:** [github.com/helius-lab/timelapsbox](https://github.com/helius-lab/timelapsbox)
-
----
+[github.com/helius-lab/timelapsbox](https://github.com/helius-lab/timelapsbox)
 
 ### **Showcase Bot** | Node.js, Telegram API
 
-**Demonstration bot for showcasing interactive features and capabilities**
-
-**Technical Implementation:**
-
-- Created feature-rich Telegram bot demonstrating advanced API capabilities
-- Implemented modular architecture for extensible functionality
-- Developed comprehensive showcase of interactive elements and user experience patterns
-
-**Repository:** [github.com/ivan-hilckov/showcase-bot-main](https://github.com/ivan-hilckov/showcase-bot-main)
-
----
-
-### **Gemini Viewer** | JavaScript, 3D Graphics, WebGL
-
-**Interactive 3D visualization tool with advanced navigation controls**
-
-![Gemini Viewer Navigation](./nav_cube.gif)
-
-**Technical Implementation:**
-
-- Developed 3D visualization interface with intuitive navigation cube controls
-- Implemented WebGL-based rendering pipeline for optimal performance
-- Created responsive user interface with advanced 3D interaction patterns
-
-**Repository:** [github.com/ivan-hilckov/gemini-viewer](https://github.com/ivan-hilckov/gemini-viewer)
+[github.com/ivan-hilckov/showcase-bot-main](https://github.com/ivan-hilckov/showcase-bot-main)
 
 ---
 
@@ -264,7 +214,7 @@ _Faculty of Theoretical Physics_ | _2003 — 2009_
 **Resources:**
 
 - **Browse Presets:** [View XMP Collection](https://github.com/ivan-hilckov/ivan-hilckov/tree/main/xmp)
-- **Download Archive:** [xmp.zip](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/xmp.zip)
+- **Download Archive:** [xmp.zip](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/xmp/xmp.zip)
 - **Installation Guide:** [INSTALL.md](https://github.com/ivan-hilckov/ivan-hilckov/blob/main/xmp/INSTALL.md)
 
 ---

@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Preview Resume (HTML, pdf.css)",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "set -a; [ -f .env ] && source .env; set +a; uv run scripts/dev_preview.py --port 8765 --markdown README.md --css styles/pdf.css"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": ".+"
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Running on",
+          "endsPattern": "Running on"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": false
+      },
+      "detail": "Serve README.md as HTML with styles/pdf.css and update on refresh."
+    },
+    {
+      "label": "Generate PDF (WeasyPrint)",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "set -a; [ -f .env ] && source .env; set +a; uv run scripts/md_to_pdf.py README.md --css styles/pdf.css"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": false
+      },
+      "detail": "Convert README.md to README.pdf using WeasyPrint with styles/pdf.css."
+    }
+  ]
+}
