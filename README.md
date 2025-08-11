@@ -18,7 +18,7 @@ Lead Fullstack Engineer with 17+ years delivering React/Next.js applications and
 
 - **START**: Reduced API latency by ~40% during peak traffic via query and caching optimizations.
 - **Skyeer**: Co‑designed QA automation (800+ Selenium E2E tests) with QA team, improving release stability by ~80%.
-- **Skyeer**: Delivered platform MVP in 3 months; won Gazprom “Unmanned Biathlon” (1st place; measurement accuracy ±0.02 m³).
+- **Skyeer**: Delivered platform MVP in 3 months; won Gazprom “Unmanned Biathlon” (1st place).
 - **Skyeer**: Implemented resumable uploads up to 100 GB using tus.io with pause/resume support.
 
 ## Experience (Selected)
