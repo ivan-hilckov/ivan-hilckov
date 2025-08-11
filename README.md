@@ -64,5 +64,4 @@ Lead Fullstack Engineer with 17+ years delivering React/Next.js applications and
 
 Kuban State University — Faculty of Theoretical Physics
 
-— CV (PDF): [CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf)
-— CV FULL (PDF): [FULL_CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV_FULL.pdf)
+[CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf) | [FULL_CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV_FULL.pdf)
