@@ -44,8 +44,7 @@ htmlcov/
 !.env.example
 
 # Generated PDF outputs (keep specific resume PDF tracked)
-README.pdf
-CV.pdf
+# CV.pdf
 
 # Archives
 *.zip
