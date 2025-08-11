@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Preview Resume (HTML, pdf.css)",
+      "label": "Preview Resume (HTML, pdf.css README.md)",
       "type": "shell",
       "command": "bash",
       "args": [
@@ -35,12 +35,45 @@
       "detail": "Serve README.md as HTML with styles/pdf.css and update on refresh."
     },
     {
+      "label": "Preview Resume (HTML, pdf.css CV.md)",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "set -a; [ -f .env ] && source .env; set +a; uv run scripts/dev_preview.py --port 8766 --markdown CV.md --css styles/pdf.css"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "fileLocation": "absolute",
+        "pattern": [
+          {
+            "regexp": ".+"
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Running on",
+          "endsPattern": "Running on"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": false
+      },
+      "detail": "Serve README.md as HTML with styles/pdf.css and update on refresh."
+    },
+    {
       "label": "Generate PDF (WeasyPrint)",
       "type": "shell",
       "command": "bash",
       "args": [
         "-lc",
-        "set -a; [ -f .env ] && source .env; set +a; uv run scripts/md_to_pdf.py README.md --css styles/pdf.css"
+        "set -a; [ -f .env ] && source .env; set +a; uv run scripts/md_to_pdf.py README.md --output CV.pdf --css styles/pdf.css; uv run scripts/md_to_pdf.py README_FULL.md --output CV_FULL.pdf --css styles/pdf.css"
       ],
       "options": {
         "cwd": "${workspaceFolder}"

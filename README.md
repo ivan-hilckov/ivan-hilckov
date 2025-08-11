@@ -1,231 +1,68 @@
-# Hilkov Ivan Andreevich
+# Ivan Hilkov
 
-**Lead Fullstack Engineer**
+Lead Fullstack Engineer — Moscow, Russia (UTC+3)
 
----
+## Contact
 
-## Contact Information
+- **Email**: [strange.mole@gmail.com](mailto:strange.mole@gmail.com)
+- **Telegram**: [@mrbzzz](https://t.me/mrbzzz)
+- **LinkedIn**: [ivan-hilkov-a1022154](https://www.linkedin.com/in/ivan-hilkov-a1022154/)
+- **GitHub**: [ivan-hilckov](https://github.com/ivan-hilckov)
+- **PDF**: [ivan-hilckov](https://github.com/ivan-hilckov)
 
-- **Email:** [strange.mole@gmail.com](mailto:strange.mole@gmail.com)
-- **Telegram:** [@mrbzzz](https://t.me/mrbzzz)
-- **GitHub:** [ivan-hilckov](https://github.com/ivan-hilckov)
-- **Instagram:** [@helios_m42](https://www.instagram.com/helios_m42/)
-- **Lightroom presets:** [xmp.zip](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/xmp.zip)
-- **PDF:** [cv_ivan_hilkov.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf)
+## Professional Summary
 
----
+Lead Fullstack Engineer with 17+ years delivering React/Next.js applications and data‑intensive web UIs. Focused on video streaming and geospatial products, with a record of performance optimization and pragmatic architecture. Led teams up to 8 engineers and shipped products end‑to‑end from MVP to scale. Remote‑first, immediate availability, open to international contract and invoicing.
 
-## Executive Summary
+## Selected Achievements
 
-Frontend engineer with over **17 years** of professional experience across high-tech startups and large corporations. Demonstrated expertise in delivering complex software products from architectural design through deployment and long-term maintenance.
+- **START**: Reduced API latency by ~40% during peak traffic via query and caching optimizations.
+- **Skyeer**: Co‑designed QA automation (800+ Selenium E2E tests) with QA team, improving release stability by ~80%.
+- **Skyeer**: Delivered platform MVP in 3 months; won Gazprom “Unmanned Biathlon” (1st place; measurement accuracy ±0.02 m³).
+- **Skyeer**: Implemented resumable uploads up to 100 GB using tus.io with pause/resume support.
 
-**Leadership Experience:** Team management of up to 8 engineers in distributed environments, with focus on process optimization and knowledge transfer.
+## Experience (Selected)
 
-**Core Philosophy:** Strategic balance between technical excellence and business objectives, emphasizing measurable results and user-centric solutions. Proven track record of performance under pressure with emphasis on evidence-based decision making.
+- **START** — **Lead Frontend Engineer** — _Jan 2023 — May 2024_
 
-## Technical Competencies
+  - Built new Next.js sections “Movies on TV” and “TV Series,” integrated player and TV channel storefront.
+  - Shipped TV section with schedules and catch‑up TV; improved channel viewing UX.
+  - Reduced latency by ~40% during peak traffic through query and caching optimizations; improved lazy‑loading and dynamic feeds.
+  - Led and mentored **4** frontend developers; streamlined A/B testing and refactored payment form to Redux for clarity and reuse.
 
-### Frontend Technologies
+- **Skyeer** — **Lead Frontend Engineer** — _Apr 2017 — Jan 2023_
 
-- **Core Frameworks:** React, React Native, Next.js, Redux
-- **Languages:** TypeScript, JavaScript (ES6+)
-- **Build Systems:** Vite, Webpack, Rollup
-- **Styling Solutions:** TailwindCSS, CSS-in-JS, SCSS
-- **Testing Frameworks:** Cypress, Jest, React Testing Library
+  - Built web‑GIS platform: React, Redux‑Saga, Mapbox/Cesium/Potree; authored a 50+ component UI library.
+  - Delivered MVP in 3 months; 1st place at Gazprom “Unmanned Biathlon” (measurement accuracy ±0.02 m³).
+  - Implemented resumable uploads up to 100 GB (tus.io), measurement tools, 360° panoramas, and point clouds.
+  - Drove QA automation with QA team: 800+ Selenium tests; release stability +80%; established CI/CD.
+  - Led a team of **8** engineers; i18n (EN/DE) and documentation at doc.map.skyeermap.com.
 
-### Backend & Infrastructure
+- **Sovzond** — **Senior Frontend Engineer** — _Jun 2013 — May 2015_
+  - Designed and built “Satellite Imagery Archive” SPA (Backbone, Leaflet, Bootstrap) with REST search and polygon tools.
+  - Implemented cart/account, WMS cadastral overlays, enhanced GeoJSON rendering; virtualized large tables.
+  - Initiated regression testing; migrated legacy ExtJS service to Backbone with full REST integration.
 
-- **Python Stack:** FastAPI, Django, Flask
-- **Node.js Ecosystem:** NestJS, Express
-- **Database Systems:** PostgreSQL, Redis, MongoDB
-- **Message Queues:** Celery, RabbitMQ
-- **DevOps:** Docker, CI/CD pipelines, GitHub Actions
+## Core Skills
 
-### Specialized Domains
+- **Frontend**: React, Next.js, TypeScript, Redux, React Native
+- **Backend**: Node.js, FastAPI, Flask • **DB**: PostgreSQL, Redis
+- **Tooling**: Docker, CI/CD, Cypress, Jest
+- **Domains**: Geospatial (Cesium, Mapbox, Leaflet, Potree), Media (FFmpeg, HLS)
 
-- **Geospatial Technologies:** Cesium, Mapbox, Leaflet, Potree
-- **Media Processing:** FFmpeg, gPhoto2
-- **Hardware Integration:** LTE modems, Raspberry Pi, IoT devices
-- **Mobile Development:** React Native (iOS/Android)
+## Portfolio
 
-### Professional Skills
-
-- **Team Leadership:** Agile methodologies, code review processes, mentorship
-- **Project Management:** Technical roadmap planning, cross-functional collaboration
-- **Communication:** Technical documentation, stakeholder presentation
-- **Languages:** Russian (native), English (B2 level)
-
----
-
-## Professional Experience
-
-### **HRONIKA** | Moscow
-
-**Co-Founder** | _April 2025 — Present_
-
-**Project Overview:** Development of autonomous timelapse photography system for construction and infrastructure monitoring.
-
-**Technical Achievements:**
-
-- Engineered prototype of autonomous timelapse system using Raspberry Pi 4, Canon 1100D, and LTE connectivity
-- Implemented pull-based architecture for task distribution and cloud-based RAW image storage
-- Developed responsive web application using React, HeroUI, and TailwindCSS
-- Architected fault-tolerant backend infrastructure with FastAPI and Celery/Redis
-- Designed Bill of Materials for autonomous power management including UPS HAT, Li-ion batteries, IP67 enclosure
-- Prepared comprehensive technical documentation and successfully qualified for Sber500 accelerator program
-
-**Website:** [hronika.tech](https://hronika.tech)
-
----
-
-### **Tekara** | Moscow
-
-**Frontend Lead Engineer** | _May 2024 — May 2025_
-
-**Project Overview:** E-commerce platform for industrial machinery and spare parts distribution.
-
-**Technical Achievements:**
-
-- Developed comprehensive catalog system and shopping cart functionality, resulting in 15% conversion improvement
-- Established and maintained design system and UI component library for consistent user experience
-- Implemented advanced anti-scraping mechanisms, achieving 75% reduction in unauthorized traffic
-- Optimized server-side rendered storefront using Next.js for handling up to 70,000 requests per second
-- Established CI/CD pipeline and comprehensive UI/UX testing suite using Cypress
-
-**Website:** [tekara.ru](https://tekara.ru)
-
----
-
-### **Tvigle** | Moscow
-
-**Frontend Lead Engineer** | _May 2024 — October 2024_
-
-**Project Overview:** Cross-platform mobile video streaming application development.
-
-**Technical Achievements:**
-
-- Led development of React Native application for iOS and Android platforms
-- Implemented automated CI/CD pipeline with TestFlight integration for beta distribution
-- Integrated VK Ads network with VAST 4.3 standard support for preroll, midroll, postroll, and companion banner advertisements
-
-**Website:** [tvigle.ru](https://www.tvigle.ru/)
-
----
-
-### **START.ru** | Moscow
-
-**Frontend Lead Engineer** | _January 2023 — May 2024_
-
-**Project Overview:** Smart TV video streaming platform and web application development.
-
-**Technical Achievements:**
-
-- Launched "Cinema on TV" section with integrated video player for Smart TV platform
-- Optimized API request patterns during high-traffic periods, achieving 40% latency reduction
-- Conducted comprehensive architectural refactoring of authentication and subscription systems
-- Mentored development team of 6 engineers with focus on code quality and best practices
-
-**Website:** [start.ru](https://start.ru)
-
----
-
-### **Skyeer** | Moscow
-
-**Frontend Lead Engineer** | _April 2017 — January 2023_
-
-**Project Overview:** Geospatial data processing and drone monitoring platform development.
-
-**Technical Achievements:**
-
-- Developed MVP of unmanned aerial vehicle monitoring system for Gazprom including user portal and map layer printing
-- Created proprietary component library that was subsequently utilized across more than 5 projects
-- Created user interface for waste monitoring service ([reo.ru/flyby](https://reo.ru/flyby))
-- Implemented UI for UAV-based quarry road monitoring system ([technical article](https://habr.com/ru/companies/nlmk/articles/650419/))
-- Developed client-side application for cloud aerial data processing service ([attractor.aero](https://attractor.aero))
-- Integrated advanced 3D visualization technologies including Cesium, Mapbox, and Potree with performance optimization
-- Built and managed frontend development team of up to 8 engineers
-- Established code review processes, CI/CD pipelines, and internal knowledge sharing workshops
-- Achieved 89% test coverage using Selenium automated testing framework
-
-**Website:** [skyeermap.com](https://skyeermap.com/ENG)
-
----
-
-### **Sovzond** | Moscow
-
-**Senior Frontend Engineer** | _June 2013 — May 2015_
-
-**Project Overview:** Satellite imagery archive and search platform development.
-
-**Technical Achievements:**
-
-- Developed user interface for satellite imagery archive and search functionality using Backbone.js
-- Implemented advanced geofiltering, timeline controls, and responsive mapping components
-- Optimized application performance through lazy-loading and asset minification strategies
-
-**Website:** [sovzond.ru](https://sovzond.ru)
-
----
-
-## Portfolio Demonstration
-
-[![Skyeer GIS Platform Demo](./cesium.jpg)](https://youtu.be/df4GsBd9a_U)
-
-_Interactive demonstration of geospatial data processing platform capabilities_
-
----
-
-## Academic Background
-
-**Kuban State University** | Krasnodar  
-_Faculty of Theoretical Physics_ | _2003 — 2009_
-
-**Relevant Coursework:** Mathematical modeling, computational physics, statistical analysis, algorithm design
-
----
+- Geospatial platform demo (YouTube): [https://youtu.be/df4GsBd9a_U](https://youtu.be/df4GsBd9a_U)
 
 ## Personal Projects
 
-### **Shawarma Bot** | TypeScript, Node.js, Telegram API
+- [hello-bot](https://github.com/ivan-hilckov/hello-bot) — TypeScript, Node.js, Telegram Bot API
+- [hello-ai-bot](https://github.com/ivan-hilckov/hello-ai-bot) — TypeScript, Node.js, OpenAI/LLM tooling
+- [english-teacher-bot](https://github.com/ivan-hilckov/english-teacher-bot) — TypeScript, Node.js, Telegram Bot API
 
-[github.com/ivan-hilckov/shawarma-bot](https://github.com/ivan-hilckov/shawarma-bot)
+## Education
 
-### **TimeLaps Box** | Python, Raspberry Pi, Hardware Integration
+Kuban State University — Faculty of Theoretical Physics
 
-[github.com/helius-lab/timelapsbox](https://github.com/helius-lab/timelapsbox)
-
-### **Showcase Bot** | Node.js, Telegram API
-
-[github.com/ivan-hilckov/showcase-bot-main](https://github.com/ivan-hilckov/showcase-bot-main)
-
----
-
-### **Lightroom Presets Collection** | Photography, Adobe Lightroom
-
-**Custom color grading and tone mapping presets for professional photography**
-
-**Technical Implementation:**
-
-- Developed collection of Adobe Lightroom presets for dark film and cinematic aesthetic
-- Implemented careful white balance adjustments for enhanced color grading
-- Applied grain effects for authentic analog film reproduction
-- Inspired by professional photographers and colorists including [GxAce](https://www.youtube.com/@GxAce), [Really Nice Images](https://reallyniceimages.com/index.html), [Peter McKinnon](https://www.instagram.com/petermckinnon/?hl=en), and [Cameron Mackie](https://www.instagram.com/cammacky)
-
-**Resources:**
-
-- **Browse Presets:** [View XMP Collection](https://github.com/ivan-hilckov/ivan-hilckov/tree/main/xmp)
-- **Download Archive:** [xmp.zip](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/xmp/xmp.zip)
-- **Installation Guide:** [INSTALL.md](https://github.com/ivan-hilckov/ivan-hilckov/blob/main/xmp/INSTALL.md)
-
----
-
-## Research Interests
-
-- Computer graphics and 3D visualization optimization
-- Geospatial data processing algorithms
-- Real-time media processing and streaming
-- Human-computer interaction in complex data environments
-
----
-
-**Available for technical consultation and project collaboration**
+— CV (PDF): [CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf)
+— CV FULL (PDF): [FULL_CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV_FULL.pdf)
