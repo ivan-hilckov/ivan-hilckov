@@ -211,7 +211,6 @@ Faculty of Theoretical Physics (Engineer)
 - GitHub — hello‑bot: github.com/ivan-hilckov/hello-bot
 - GitHub — hello‑ai‑bot: github.com/ivan-hilckov/hello-ai-bot
 - GitHub — english‑teacher‑bot: github.com/ivan-hilckov/english-teacher-bot
-- Full CV (PDF): ./CV.pdf
 
 ## Availability & Preferences
 
