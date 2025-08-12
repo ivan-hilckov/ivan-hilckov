@@ -22,6 +22,16 @@ Lead Fullstack Engineer with 17+ years delivering React/Next.js applications and
 
 ## Experience (Selected)
 
+#### **Bot Garden** — **Founder** — _Jun 2025 — Present_
+
+- Built an echo bot — [hello-bot](https://github.com/ivan-hilckov/hello-bot).
+- Built a GPT-powered single-turn long‑context Q&A bot — [hello-ai-bot](https://github.com/ivan-hilckov/hello-ai-bot).
+- Built an English writing assistant bot — [english-teacher-bot](https://github.com/ivan-hilckov/english-teacher-bot).
+- Built the company landing page — [botgarden.tech](https://github.com/ivan-hilckov/botgarden.tech).
+- Developed a shared runtime and orchestration app for bots — [botgarden-core](https://github.com/ivan-hilckov/botgarden-core).
+- Integrated payments via [WATA.pro](https://wata.pro/).
+- Set up CI/CD with GitHub Actions for automated build, test, and deploy.
+
 #### **START** — **Lead Frontend Engineer** — _Jan 2023 — May 2024_
 
 - Built new Next.js sections “Movies on TV” and “TV Series,” integrated player and TV channel storefront.
@@ -52,7 +62,7 @@ Lead Fullstack Engineer with 17+ years delivering React/Next.js applications and
 
 ## Portfolio
 
-- Geospatial platform demo (YouTube): [https://youtu.be/df4GsBd9a_U](https://youtu.be/df4GsBd9a_U)
+- Skyeer platform demo (YouTube): [https://youtu.be/df4GsBd9a_U](https://youtu.be/df4GsBd9a_U)
 
 ## Personal Projects
 
