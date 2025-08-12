@@ -17,7 +17,6 @@ Results-driven Lead Frontend Engineer with 17+ years of experience delivering sc
 ## Key Achievements
 
 - **Performance Optimization**: Reduced API latency by 40% handling 700,000 requests per second during peak traffic events at leading video streaming platform
-- **Quality Engineering**: Co-designed QA automation framework with 800+ Selenium E2E tests, improving release stability by 80%
 - **Rapid Delivery**: Delivered geospatial platform MVP in 3 months, securing 1st place at Gazprom "Unmanned Biathlon" and 10+ enterprise contracts worth $1M+ annually
 - **Technical Innovation**: Implemented resumable uploads up to 100 GB with pause/resume support using tus.io protocol
 - **Team Leadership**: Successfully led cross-functional teams of up to 8 engineers with structured mentoring and career progression programs
