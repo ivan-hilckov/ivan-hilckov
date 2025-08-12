@@ -29,4 +29,4 @@ Your mission is to thoroughly review and update the resume materials using profe
 
 ## Output
 
-Produce an updated version of `README_UPDATED_GPT.md`, enhanced and restructured to meet all recommendations and achieve a higher evaluation score in subsequent AI analysis.
+Produce an updated version of `README.md`, enhanced and restructured to meet all recommendations and achieve a higher evaluation score in subsequent AI analysis.

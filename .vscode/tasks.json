@@ -40,7 +40,7 @@
       "command": "bash",
       "args": [
         "-lc",
-        "set -a; [ -f .env ] && source .env; set +a; uv run scripts/dev_preview.py --port 8766 --markdown CV.md --css styles/pdf.css"
+        "set -a; [ -f .env ] && source .env; set +a; uv run scripts/dev_preview.py --port 8766 --markdown README_FULL.md --css styles/pdf.css"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
