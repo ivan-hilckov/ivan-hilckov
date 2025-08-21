@@ -4,11 +4,8 @@
 
 ## Contact Information
 
-- **Phone**: +7 925 834 55 30
-- **Email**: [strange.mole@gmail.com](mailto:strange.mole@gmail.com)
-- **LinkedIn**: [ivan-hilkov-a1022154](https://www.linkedin.com/in/ivan-hilkov-a1022154/)
-- **GitHub**: [ivan-hilckov](https://github.com/ivan-hilckov)
-- **Telegram**: [@mrbzzz](https://t.me/mrbzzz)
+[Email](mailto:strange.mole@gmail.com) • [LinkedIn](https://www.linkedin.com/in/ivan-hilkov-a1022154/) • [Telegram](https://t.me/mrbzzz) • [CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf)
+
 
 ## Professional Summary
 
@@ -111,7 +108,7 @@ _Relevant Coursework: Advanced Mathematics, Statistical Mechanics, Computational
 
 ## Portfolio & Demonstrations
 
-- **Geospatial Platform Demo**: [YouTube Showcase](https://youtu.be/df4GsBd9a_U)
+- **Geospatial Platform Demo**: [UI/UX Skyeer](https://youtu.be/df4GsBd9a_U) • [gource.io: 4 years of Skyeer](https://youtu.be/0VSIHanKoNY?si=Oui7Jj2B3Zbp_Zpj)
 - **Bot Garden Projects**: [hello-bot](https://github.com/ivan-hilckov/hello-bot) | [hello-ai-bot](https://github.com/ivan-hilckov/hello-ai-bot) | [english-teacher-bot](https://github.com/ivan-hilckov/english-teacher-bot)
 
 ## Additional Information
@@ -122,4 +119,4 @@ _Relevant Coursework: Advanced Mathematics, Statistical Mechanics, Computational
 
 ---
 
-[CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf) • [Full CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV_FULL.pdf)
+[Full CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV_FULL.pdf)
