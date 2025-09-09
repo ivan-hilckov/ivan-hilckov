@@ -11,25 +11,40 @@
 
 ## Professional Summary
 
-Lead Fullstack Engineer with 17+ years building high‑load web applications with React/Next.js and data‑intensive UIs. Deep experience across streaming/media and geospatial domains. Strong focus on pragmatic architecture, performance optimization, and end‑to‑end delivery. Led teams of up to 8 engineers, set up QA automation and CI/CD, and collaborated closely with product and QA for predictable releases. Remote‑first, immediate availability, open to international contract and invoicing.
+Lead Fullstack Engineer with 17+ years building high‑load web applications with React/Next.js frontends and high‑performance backend systems (Go, Node.js, Python). Deep experience across streaming/media, geospatial, and AI‑powered domains. Strong focus on pragmatic architecture, performance optimization, and end‑to‑end delivery from legacy system consolidation to scalable microservices. Led teams of up to 8 engineers, set up QA automation and CI/CD, and collaborated closely with product and QA for predictable releases. Proven expertise in AI/ML service integration and modern backend development with Go. Remote‑first, immediate availability, open to international contract and invoicing.
 
 ## Core Competencies
 
-- **Frontend:** React, Next.js, TypeScript, Redux, React Router, React Native, HTML, CSS, TailwindCSS, Webpack
-- **Backend:** Node.js, FastAPI, Flask
+- **Frontend:** React, Next.js, TypeScript, Redux, React Router, React Native, HTML, CSS, TailwindCSS, shadcn/ui, Webpack
+- **Backend:** Node.js, Go (Fiber, GORM), FastAPI, Flask, JWT Authentication, OpenAPI/Swagger
 - **Databases & Caching:** PostgreSQL, Redis
 - **Geospatial & Media:** Cesium, Mapbox, Leaflet, Potree, Pannellum, FFmpeg, HLS
-- **Quality & Tooling:** Git, Docker, CI/CD, Cypress, Jest
-- **Practices:** Agile, Scrum; performance optimization; accessibility; frontend architecture
+- **AI/ML & Automation:** LangGraph, LangChain, CrewAI, OpenAI/Anthropic APIs, Python ML workflows
+- **Quality & Tooling:** Git, Docker, Docker Compose, CI/CD, Cypress, Jest, orval (API generation)
+- **Practices:** Agile, Scrum; performance optimization; accessibility; frontend architecture; microservices design
 
 ## Selected Achievements
 
+- **ALMATICA:** Unified 3 legacy projects into scalable microservices MVP in 1 month, establishing full development pipeline and team processes.
 - **START:** Cut API latency by ~40% during peak traffic through query and caching optimizations.
 - **Skyeer:** Co‑designed QA automation (800+ Selenium E2E tests) with QA team; release stability improved by ~80%.
-- **Skyeer:** Delivered platform MVP in 3 months; 1st place at Gazprom “Unmanned Biathlon” (measurement accuracy ±0.02 m³).
+- **Skyeer:** Delivered platform MVP in 3 months; 1st place at Gazprom "Unmanned Biathlon" (measurement accuracy ±0.02 m³).
 - **Skyeer:** Implemented resumable uploads up to 100 GB via tus.io with pause/resume support.
 
 ## Professional Experience
+
+### **ALMATICA** — Lead Developer & Tech Lead — _Dec 2024 — Present_ — Moscow
+
+Collective intelligence platform connecting humans, AI agents, and organizations for complex problem-solving.
+
+- Conducted comprehensive technical audit of 3 legacy projects (frontend React/MUI, backend Go/Fiber, ML Python/FastAPI services), consolidating architecture and identifying optimization opportunities.
+- Architected and delivered microservices MVP in 1 month using monorepo approach: Go API with Fiber/GORM, React 18/TypeScript frontend, Python ML services, unified Docker infrastructure.
+- Led cross-functional development team of 3 engineers, establishing Agile processes: sprint planning, task grooming, code reviews, CI/CD pipelines, sandbox deployment for stakeholder demos.
+- Built comprehensive REST API (Go 1.25, Fiber, GORM, PostgreSQL, Redis) with JWT authentication, Kinde Auth integration, RBAC system, and complete OpenAPI/Swagger documentation.
+- Developed modern frontend using React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui components with responsive design, form validation (React Hook Form + Zod), and automated API client generation via orval.
+- Integrated AI/ML capabilities: Python FastAPI services, LangGraph workflows, LangChain integrations, CrewAI multi-agent systems, OpenAI/Anthropic API connections for autonomous agents.
+- Containerized entire platform using Docker Compose with PostgreSQL 16, Redis 7, reverse proxy configuration, and automated deployment processes.
+- Created technical documentation, project roadmap, and established development standards for scalable team growth and product iteration.
 
 ### **HRONIKA** — Co‑Founder / Fullstack Engineer — _Apr 2025 — Present_ — Moscow
 

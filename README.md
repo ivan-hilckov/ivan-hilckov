@@ -9,16 +9,30 @@
 
 ## Professional Summary
 
-Results-driven Lead Frontend Engineer with 17+ years of experience delivering scalable React/Next.js applications and data-intensive web solutions for streaming and geospatial domains. Proven track record in team leadership (up to 8 engineers), performance optimization, and end-to-end product delivery from MVP to production scale. Specialized expertise in video streaming platforms and geospatial applications with demonstrated success in reducing system latency by 40% and improving release stability by 80%. Strong background in building high-performance teams, implementing robust CI/CD processes, and driving technical architecture decisions for product-focused startups leveraging AI technologies.
+Results-driven Lead Fullstack Engineer with 17+ years of experience delivering scalable React/Next.js applications and high-performance backend systems for streaming, geospatial, and AI-powered domains. Proven expertise in modern Go backend development, React/TypeScript frontends, and AI/ML service integration. Strong track record in team leadership (up to 8 engineers), performance optimization, and end-to-end product delivery from MVP to production scale. Demonstrated success in reducing system latency by 40%, improving release stability by 80%, and rapidly consolidating complex legacy systems into unified microservices architecture. Expert in building high-performance teams, implementing robust CI/CD processes, and driving technical architecture decisions for product-focused startups leveraging cutting-edge AI technologies.
 
 ## Key Achievements
 
+- **System Integration**: Unified 3 legacy projects into cohesive microservices MVP within 1 month, establishing scalable architecture and comprehensive development processes for AI-powered platform
 - **Performance Optimization**: Reduced API latency by 40% handling 700,000 requests per second during peak traffic events at leading video streaming platform
 - **Rapid Delivery**: Delivered geospatial platform MVP in 3 months, securing 1st place at Gazprom "Unmanned Biathlon" and 10+ enterprise contracts worth $1M+ annually
 - **Technical Innovation**: Implemented resumable uploads up to 100 GB with pause/resume support using tus.io protocol
 - **Team Leadership**: Successfully led cross-functional teams of up to 8 engineers with structured mentoring and career progression programs
 
 ## Professional Experience
+
+### **ALMATICA** — **Lead Developer & Tech Lead** — _Dec 2024 — Present_
+
+_Collective intelligence platform startup connecting humans, AI agents, and organizations for complex problem-solving_
+
+- Conducted comprehensive technical audit of 3 legacy projects (frontend, backend, ML services), identifying critical architectural improvements and consolidation opportunities
+- Architected and implemented microservices MVP using monorepo approach, unifying disparate components into cohesive platform with centralized infrastructure
+- Led cross-functional team of 3 developers, establishing development processes including task planning, grooming, code reviews, and CI/CD pipelines
+- Built REST API using Go 1.25 with Fiber framework and GORM ORM, implementing JWT authentication with Kinde Auth integration and RBAC system
+- Developed modern React 18 + TypeScript frontend with Tailwind CSS and shadcn/ui components, featuring responsive design and form validation using React Hook Form + Zod
+- Integrated ML/AI services using Python, FastAPI, LangGraph, and LangChain with OpenAI/Anthropic APIs for autonomous agent capabilities
+- Containerized all services using Docker and Docker Compose, establishing unified development environment and sandbox deployment for stakeholder demonstrations
+- Created comprehensive technical documentation, project roadmap, and OpenAPI/Swagger specifications for seamless team collaboration
 
 ### **Bot Garden** — **Founder** — _Jun 2025 — Present_
 
@@ -83,13 +97,13 @@ _Satellite imagery and geospatial data provider serving government and commercia
 
 ## Technical Skills
 
-**Programming Languages**: TypeScript, JavaScript, Python  
-**Frontend Technologies**: React (18), Next.js, Redux, Redux-Saga, React Native, HTML5, CSS3, TailwindCSS, WebGL  
-**Backend Technologies**: Node.js, FastAPI, Flask, Express  
+**Programming Languages**: TypeScript, JavaScript, Python, Go  
+**Frontend Technologies**: React (18), Next.js, Redux, Redux-Saga, React Native, HTML5, CSS3, TailwindCSS, shadcn/ui, WebGL  
+**Backend Technologies**: Node.js, Go (Fiber, GORM), FastAPI, Flask, Express, JWT Authentication  
 **Databases & Caching**: PostgreSQL, Redis  
-**DevOps & Testing**: Docker, GitHub Actions, GitLab CI/CD, Cypress, Jest, Selenium, E2E testing  
-**Specialized Domains**: Geospatial (CesiumJS, Mapbox GL JS, Leaflet, Potree), Media Streaming (FFmpeg, HLS/DASH), AI/ML APIs (GPT, Claude, Perplexity)  
-**Cloud & Monitoring**: Docker containerization, Grafana analytics, Sentry error tracking, automated deployment pipelines
+**DevOps & Testing**: Docker, Docker Compose, GitHub Actions, GitLab CI/CD, Cypress, Jest, Selenium, E2E testing  
+**Specialized Domains**: Geospatial (CesiumJS, Mapbox GL JS, Leaflet, Potree), Media Streaming (FFmpeg, HLS/DASH), AI/ML APIs (GPT, Claude, Perplexity, LangGraph, LangChain, CrewAI)  
+**Development Tools**: orval (API client generation), Kinde Auth, OpenAPI/Swagger, Docker containerization, automated deployment pipelines
 
 ## Leadership & Management Skills
 
