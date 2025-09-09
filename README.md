@@ -21,7 +21,7 @@ Results-driven Lead Fullstack Engineer with 17+ years of experience delivering s
 
 ## Professional Experience
 
-### **ALMATICA** — **Lead Developer & Tech Lead** — _Dec 2024 — Present_
+### **ALMATICA** — **Lead Developer & Tech Lead** — _Aug 2025 — Present_
 
 _Collective intelligence platform startup connecting humans, AI agents, and organizations for complex problem-solving_
 

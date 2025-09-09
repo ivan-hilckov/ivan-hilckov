@@ -33,7 +33,7 @@ Lead Fullstack Engineer with 17+ years building high‑load web applications wit
 
 ## Professional Experience
 
-### **ALMATICA** — Lead Developer & Tech Lead — _Dec 2024 — Present_ — Moscow
+### **ALMATICA** — Lead Developer & Tech Lead — _Aug 2025— Present_ — Moscow
 
 Collective intelligence platform connecting humans, AI agents, and organizations for complex problem-solving.
 
