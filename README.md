@@ -23,7 +23,7 @@ Results-driven Lead Fullstack Engineer with 17+ years of experience delivering s
 
 ## Professional Experience
 
-### **ALMATICA** — **Lead Developer & Tech Lead** — _Aug 2025 — Present_
+### **ALMATICA** — **Lead Developer & Tech Lead** — _Aug 2025 — September 2025_
 
 _Collective intelligence platform startup connecting humans, AI agents, and organizations for complex problem-solving_
 
@@ -36,7 +36,7 @@ _Collective intelligence platform startup connecting humans, AI agents, and orga
 - Containerized all services using Docker and Docker Compose, establishing unified development environment and sandbox deployment for stakeholder demonstrations
 - Created comprehensive technical documentation, project roadmap, and OpenAPI/Swagger specifications for seamless team collaboration
 
-### **Bot Garden** — **Founder** — _Jun 2025 — Present_
+### **Bot Garden** — **Founder** — _Jun 2025 — September 2025_
 
 _AI-powered Telegram bot platform startup_
 
