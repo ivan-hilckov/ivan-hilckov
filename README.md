@@ -19,6 +19,8 @@ Results-driven Lead Fullstack Engineer with 17+ years of experience delivering s
 - **Technical Innovation**: Implemented resumable uploads up to 100 GB with pause/resume support using tus.io protocol
 - **Team Leadership**: Successfully led cross-functional teams of up to 8 engineers with structured mentoring and career progression programs
 
+![GitHub Contribution Graph](https://ghchart.rshah.org/ivan-hilckov)
+
 ## Professional Experience
 
 ### **ALMATICA** — **Lead Developer & Tech Lead** — _Aug 2025 — Present_
