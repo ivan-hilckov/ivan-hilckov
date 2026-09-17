@@ -7,7 +7,7 @@ _AI-native engineering lead: spec-first, agent-driven, review-gated delivery wit
 ## Contact
 
 [strange.mole@gmail.com](mailto:strange.mole@gmail.com) • [linkedin.com/in/ivan-hilkov-a1022154](https://www.linkedin.com/in/ivan-hilkov-a1022154/) • [t.me/mrbzzz](https://t.me/mrbzzz) • [github.com/ivan-hilckov](https://github.com/ivan-hilckov)  
-Moscow, Russia (UTC+3) · remote-first · open to international contracts
+Bangkok, Thailand (UTC+7) · remote-first · open to international contracts
 
 ## Professional Summary
 
@@ -55,7 +55,7 @@ AI engineer who has run software delivery for 4 organizations through Claude Cod
 
 ## Professional Experience
 
-### **YokeLoop** — **Founder, AI Engineering Lead** — _Apr 2026 — Present_ (tooling line since Feb 2026) — Moscow (remote)
+### **YokeLoop** — **Founder, AI Engineering Lead** — _Apr 2026 — Present_ (tooling line since Feb 2026) — remote
 
 Own company (GitHub organization created April 2026 around the yoke plugin, whose history starts February 2026): "We harness LLM agents to build SaaS for small and mid-size businesses. Open-source first." Sole or main engineer; a second contributor sends small PRs. From February 2026 the client work below was delivered through the tooling described above.
 
@@ -70,7 +70,7 @@ Own company (GitHub organization created April 2026 around the yoke plugin, whos
 - Operates the 5-server pool: inventory, machine profiles, policies, tailnet-only lockdown, the Bash PreToolUse guard on the workstation covering SSH commands to every machine, Uptime Kuma, the weekly Mattermost report; server dotfiles with a gitleaks scan; an organization-wide reusable GitHub Actions workflow for Telegram notifications.
 - Numbers: about 1,630 commits in 29 of the organization's 30 repositories, 189 PRs; reviews happen inside the agent pipeline (ship reports, re-review rounds) rather than in the GitHub UI.
 
-### **Talking Birds & Flying Fish (TB-FF)** — **Lead Engineer, Electron kiosk platform** — _Oct 2025 — Present_ — Moscow
+### **Talking Birds & Flying Fish (TB-FF)** — **Lead Engineer, Electron kiosk platform** — _Oct 2025 — Present_ — remote
 
 Production studio building interactive installations: Electron kiosk apps for the conference stands of a global technology vendor, Unreal Engine installations and museum exhibits (client engagement; end customers under NDA). Organization admin; sole or majority author on the platform repositories, 40 to 80% on the installation apps; 3 to 5 people per repository.
 

@@ -7,7 +7,7 @@ _AI-native engineering lead: spec-first, agent-driven, review-gated delivery wit
 ## Contact
 
 [strange.mole@gmail.com](mailto:strange.mole@gmail.com) • [linkedin.com/in/ivan-hilkov-a1022154](https://www.linkedin.com/in/ivan-hilkov-a1022154/) • [t.me/mrbzzz](https://t.me/mrbzzz) • [github.com/ivan-hilckov](https://github.com/ivan-hilckov) • [CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf) · [CV_FULL.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV_FULL.pdf)  
-Moscow, Russia (UTC+3) · remote-first · open to international contracts
+Bangkok, Thailand (UTC+7) · remote-first · open to international contracts
 
 ## Professional Summary
 
