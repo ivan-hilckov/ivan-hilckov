@@ -1,138 +1,118 @@
 # Ivan Hilkov
 
-**Lead Frontend Engineer** — Moscow, Russia
+**Lead AI Engineer — Agent Orchestration, Prompt & Context Engineering**
 
-## Contact Information
+_AI-native engineering lead: spec-first, agent-driven, review-gated delivery with Claude Code across 4 organizations · 17 years in software_
 
-[Email](mailto:strange.mole@gmail.com) • [LinkedIn](https://www.linkedin.com/in/ivan-hilkov-a1022154/) • [Telegram](https://t.me/mrbzzz) • [CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf)
+## Contact
 
+[strange.mole@gmail.com](mailto:strange.mole@gmail.com) • [linkedin.com/in/ivan-hilkov-a1022154](https://www.linkedin.com/in/ivan-hilkov-a1022154/) • [t.me/mrbzzz](https://t.me/mrbzzz) • [github.com/ivan-hilckov](https://github.com/ivan-hilckov) • [CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV.pdf) · [CV_FULL.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV_FULL.pdf)  
+Moscow, Russia (UTC+3) · remote-first · open to international contracts
 
 ## Professional Summary
 
-Results-driven Lead Fullstack Engineer with 17+ years of experience delivering scalable React/Next.js applications and high-performance backend systems for streaming, geospatial, and AI-powered domains. Proven expertise in modern Go backend development, React/TypeScript frontends, and AI/ML service integration. Strong track record in team leadership (up to 8 engineers), performance optimization, and end-to-end product delivery from MVP to production scale. Demonstrated success in reducing system latency by 40%, improving release stability by 80%, and rapidly consolidating complex legacy systems into unified microservices architecture. Expert in building high-performance teams, implementing robust CI/CD processes, and driving technical architecture decisions for product-focused startups leveraging cutting-edge AI technologies.
+AI engineer who has run software delivery for 4 organizations through Claude Code since autumn 2025: YokeLoop (founder), 3 client engagements and a 5-server pool with self-hosted LLM infrastructure. Recurring prompts became versioned Agent Skills; the skills became a ticket-driven agent orchestrator that moves each change from a product requirements document (PRD) to a plan, agent implementation, a review pass and a ship step. I keep the specification, the acceptance criteria, the deep code reviews and the single confirmation before merge. Guardrails are enforced, not requested: PreToolUse hooks block irreversible operations, every refusal of the orchestrator's guard is logged, and per-ticket metrics feed back into the prompts. 17 years in frontend and full-stack engineering (TypeScript, React, Go, Python), 9 of them leading teams of up to 8, are what make the reviews deep and the specifications precise.
 
-## Key Achievements
+## AI Engineering Projects
 
-- **System Integration**: Unified 3 legacy projects into cohesive microservices MVP within 1 month, establishing scalable architecture and comprehensive development processes for AI-powered platform
-- **Performance Optimization**: Reduced API latency by 40% handling 700,000 requests per second during peak traffic events at leading video streaming platform
-- **Rapid Delivery**: Delivered geospatial platform MVP in 3 months, securing 1st place at Gazprom "Unmanned Biathlon" and 10+ enterprise contracts worth $1M+ annually
-- **Technical Innovation**: Implemented resumable uploads up to 100 GB with pause/resume support using tus.io protocol
-- **Team Leadership**: Successfully led cross-functional teams of up to 8 engineers with structured mentoring and career progression programs
+**yokemate — ticket-driven multi-agent orchestrator on Claude Code** (YokeLoop, _Aug 2026 — Present_)
+
+- Orchestrates tickets from 3 YouTrack instances and GitHub Issues across 4 organizations from one Claude Code session. Each ticket passes a 6-stage lifecycle (new, scouted, planned, running, review, accepted) held in a shared PostgreSQL queue, so the laptop and 3 pool servers act as equal peers.
+- Gates implementation: tests before code where a suite exists, the project's own checks, a review pass by a separate subagent, a simplification pass, a documentation sync and one PR per affected repository; a human confirms once per ticket, before merge. Built from 12 engineer-facing skills (/plan, /do, /review, /ship), 6 worker skills and 9 subagents (scout, planner, executor, reviewer, retrospective).
+- Governs least-privilege tool access per mode (research panes cannot write code or move queue state), routes read-only subagents to a cheaper model tier, and carries context through 9 Model Context Protocol (MCP) servers (YouTrack, Figma, Dokploy, SSH, PostgreSQL) and CLAUDE.md in 28 of 39 working clones.
+- Instrumented from its own journal and transcripts (Aug 15 to Sep 17, 2026): 125 tickets from plan to merge at a median of 14 hours, 45% of tickets with no human intervention, a PR link on 188 of 188 execution reports, agent cost per ticket at a median of $10 (75th percentile $18) over 87 tickets with recorded cost, about $3,200 of tracked spend for the month, half of it in sessions outside any ticket; a retrospective skill turns journals, transcripts and guard traces into accepted or declined prompt changes. 977 commits, 289 automated tests, v2.0.0 after one month.
+- Fourth generation of one pipeline in 7 months: a homegrown skills pack, the public plugin [yoke](https://github.com/yokeloop/yoke) (14 commands and the `.yoke/` artifact convention: glossary, decision records, per-task PRD, plan and report), a captain-and-crew harness forked from the open-source Firstmate and piloted on disposable git worktrees, then the orchestrator above, now being ported to a second agent runtime (Pi). Each rewrite answered a failure of the previous one, starting from 300-line plans and 100-file diffs that nobody could review.
+
+**Guardrails for autonomous agent sessions** (_Aug 2026 — Present_)
+
+- Wrote a Bash PreToolUse hook with a regex denylist of irreversible operations (firewall reset, docker prune with volumes, filesystem formatting) that also catches the same commands wrapped in `ssh host '…'`, so one guard on the workstation covers all 5 pool servers; block and pass fixture tests.
+- In the orchestrator every refusal names the allowed alternative and appends one JSON line to an audit log (228 entries in the first 10 days of logging: 202 denials, 26 confirmations) that feeds the metrics and the retrospective. Damage is bounded to the ticket's disposable worktree, so the guard fails open on its own errors instead of halting the pipeline.
+
+**Self-hosted AI platform on a 5-server pool** (YokeLoop, _May 2026 — Present_)
+
+- Runs 5 machines (Ubuntu, Arch, Debian; Singapore, US, Netherlands) on a Tailscale mesh with a machine-readable inventory, per-machine profiles for agents, reboot and upgrade policies and 4 pool-administration skills; admin surfaces reachable from the tailnet only.
+- Runs 10 services from 14 versioned Dokploy blueprints: a LiteLLM gateway exposing one OpenAI-compatible API over cloud and local models with per-client virtual keys, Open WebUI with SearXNG search, a GPU box for Whisper, embeddings and ComfyUI, self-hosted Supabase with pgvector, MinIO, Mattermost, n8n and Vaultwarden; Uptime Kuma (23 checks) and a weekly fleet report to Mattermost watch it.
+
+## Key Metrics (June 2025 — September 2026)
+
+- Throughput with a quality denominator: 5,700+ attributed commits and 888 pull requests (828 merged, 93%) across 96 repositories in 8 organizations in 15 months, with 4 reverts among the 4,076 commits analyzed locally.
+- Context engineering: 38% of commits change only Markdown or agent-configuration files (plans, journals, skills, CLAUDE.md); about 30 skills, 14 plugin commands and 9 subagent definitions authored, versioned and released through git.
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/ivan-hilckov)
 
+_About 1,500 commits from June to August 2026 carry a mistyped git email and are not attributed to the account, so the graph undercounts._
+
 ## Professional Experience
 
-### **ALMATICA** — **Lead Developer & Tech Lead** — _Aug 2025 — September 2025_
+### **YokeLoop** — **Founder, AI Engineering Lead** — _Apr 2026 — Present_ (tooling line since Feb 2026)
 
-_Collective intelligence platform startup connecting humans, AI agents, and organizations for complex problem-solving_
+- Built the agent tooling and the self-hosted platform described above and, from February 2026, delivered the client work below through them; 1,630 commits in 29 repositories, 189 PRs.
+- Built the provisioning layer of hermes-orchestration, a partner-designed B2B platform for hosting isolated AI agents on bare metal: provisioning service with presets, LiteLLM virtual-key issuance, provisioner UI, credential-rotation runbook, gateway smoke tests.
+- Shipped nook, a Telegram Mini App social product, as sole developer: 3 deployable apps in a pnpm monorepo, 52 test files run in CI against a real PostgreSQL database, prebuilt images on GitHub Container Registry deployed with Dokploy; 213 commits, 52 PRs.
 
-- Conducted comprehensive technical audit of 3 legacy projects (frontend, backend, ML services), identifying critical architectural improvements and consolidation opportunities
-- Architected and implemented microservices MVP using monorepo approach, unifying disparate components into cohesive platform with centralized infrastructure
-- Led cross-functional team of 3 developers, establishing development processes including task planning, grooming, code reviews, and CI/CD pipelines
-- Built REST API using Go 1.25 with Fiber framework and GORM ORM, implementing JWT authentication with Kinde Auth integration and RBAC system
-- Developed modern React 18 + TypeScript frontend with Tailwind CSS and shadcn/ui components, featuring responsive design and form validation using React Hook Form + Zod
-- Integrated ML/AI services using Python, FastAPI, LangGraph, and LangChain with OpenAI/Anthropic APIs for autonomous agent capabilities
-- Containerized all services using Docker and Docker Compose, establishing unified development environment and sandbox deployment for stakeholder demonstrations
-- Created comprehensive technical documentation, project roadmap, and OpenAPI/Swagger specifications for seamless team collaboration
+### **Talking Birds & Flying Fish (TB-FF)** — **Lead Engineer, Electron kiosk platform** — _Oct 2025 — Present_
 
-### **Bot Garden** — **Founder** — _Jun 2025 — September 2025_
+_Production studio building interactive installations for corporate conference stands and museum exhibits (client engagement; end customers under NDA)_
 
-_AI-powered Telegram bot platform startup_
+- Owned the studio's Electron kiosk template (auto-update, release gate, Telegram release notifications) and co-authored the shared React library `@tb-ff/web-toolkit`, from which the studio's later event and museum apps are stamped (14 app repositories).
+- Delivered the player-station software for a security vendor's game arena at a major US industry conference (March 2026): 5 stations, a 27-screen flow, 3 timed touch games, an offline SQLite buffer synced to a Supabase leaderboard, plus the live leaderboard display and a moderation panel.
+- Architected a two-PC, server-authoritative room simulator for a conference installation as a server app, a client app and a shared typed LAN protocol package (Arduino buttons and lights); both apps released at v2.0.6.
+- Contributed the test and reliability layer to a museum's 8-installation children's exhibit (Playwright runtime, visitor walkthroughs, load and endurance tests, error screen with retry) and built the delivery-robot kiosk over WebSocket and a COM port; CLAUDE.md in every repository, agent skills in the template, `.yoke/` plans and review reports in the simulator and museum repositories; 1,990 commits in 22 repositories, 313 PRs opened, 37 reviewed.
 
-- Achieved rapid domain expertise in Telegram Bot API and LLM integration, building 4 AI-powered bot prototypes in 2 months
-- Successfully integrated multiple LLM providers (GPT, Perplexity, Claude) demonstrating ability to quickly master emerging AI technologies
-- Built comprehensive suite: echo bot ([hello-bot](https://github.com/ivan-hilckov/hello-bot)), GPT-powered Q&A bot ([hello-ai-bot](https://github.com/ivan-hilckov/hello-ai-bot)), English writing assistant ([english-teacher-bot](https://github.com/ivan-hilckov/english-teacher-bot))
-- Developed shared runtime and orchestration platform ([botgarden-core](https://github.com/ivan-hilckov/botgarden-core)) with automated deployment via GitHub Actions
-- Integrated WATA.pro payment system and established CI/CD pipeline for rapid iteration and deployment
+### **Velvet VPN (velvetnet)** — **Lead Frontend Engineer, AI-driven delivery** — _Apr 2026 — Present_
 
-### **START** — **Lead Frontend Engineer** — _Jan 2023 — May 2024_
+_VPN subscription business: Telegram bot, subscriber portal, public subscription page, UI kit, CRM (client engagement)_
 
-_Leading Russian video streaming platform serving 5M+ users with Smart TV and web content delivery_
+- Created the public subscription page from an empty repository: runs in the browser and as a Telegram Mini App, API-driven setup guides, white-label mode for resellers, CI on every PR, Playwright end-to-end tests against offline and live environments; 110 PRs merged, deployed through GitHub Actions to Kubernetes.
+- Created `@velvetnet/vpn-ui-kit` (44 minor releases) consumed by 3 apps; co-developed the subscriber portal (saved cards behind a feature flag, API-driven FAQ, Sentry hardening).
+- Prototyped a Chrome Manifest V3 VPN extension with its own Fastify and SQLite backend (email login, device identity, PAC routing, event telemetry, release pipeline) in 5 weeks.
+- Prototyped an evaluation loop for the support CRM's LLM replies: retrieval-augmented generation (RAG) over the knowledge base with pgvector and a promptfoo endpoint scoring reply quality with an LLM-as-judge; 228 PRs opened in the organization.
 
-- Optimized application performance to handle 700,000 requests per second during peak traffic events, reducing API P95 latency by 40% through query pattern optimization and caching strategies
-- Built and shipped Next.js features including "Movies on TV" and "TV Series" sections with integrated player and TV channel storefront
-- Developed TV programming section with schedules and catch-up TV functionality, improving user engagement and content discovery
-- Refactored monolithic payment system into modular Redux components, reducing codebase by 50% and improving maintainability for subscription workflows
-- Implemented custom A/B testing library reducing experiment development time by 30%, enabling faster iteration on user experience improvements
-- Led and mentored team of 4 frontend engineers, establishing technical standards and conducting architecture reviews
+### **PokerNode** — **Frontend Lead** — _Dec 2025 — Aug 2026_
+
+- Led the frontend of a real-time React 19 poker client (WebSocket and EventSource) for a partner studio: history lobby and replay viewer, table-engine visuals in 6 staged PRs, mobile tables readable at 360 to 414 px, SEO for the prerendered landing; 377 commits, 57 PRs merged.
+
+### **ALMATICA** — **Lead Developer & Tech Lead** — _Aug 2025 — Sep 2025_
+
+- Audited 3 legacy projects and unified them into a microservices MVP (Go API, React 18 frontend, Python LangGraph and LangChain services, Docker Compose) in 1 month; led 3 developers and set up planning, reviews and CI/CD.
+
+### **Bot Garden** — **Founder** — _Jun 2025 — Sep 2025_ · **HRONIKA** — **Co-Founder** — _Apr 2025 — Sep 2025_
+
+- Built 4 LLM-backed Telegram bot prototypes in 2 months on the OpenAI, Perplexity and Anthropic APIs with a shared runtime deployed through GitHub Actions; co-founded a Raspberry Pi timelapse system for construction monitoring (React dashboard, FastAPI and Celery backend).
 
 ### **Tvigle** — **Lead Frontend Engineer** — _May 2024 — Oct 2024_
 
-_Online cinema platform_
+- Online cinema: ad SDK integrations (Yandex Ads, VK Ads) via MRAID, VAST 2.0 to 4.0 upgrade, React Native mobile app.
 
-- Enhanced video player capabilities with advanced ad SDK integrations (Yandex Ads, VK Ads) via MRAID protocol
-- Upgraded ad serving infrastructure from VAST 2.0 to VAST 4.0 standard, improving ad delivery reliability and performance
-- Developed React Native mobile application with cross-platform Android/iOS support
-- Optimized mobile user experience through responsive design adaptations and performance improvements
+### **START** — **Lead Frontend Engineer** — _Jan 2023 — May 2024_
+
+- Cut API P95 latency by 40% through query and caching optimization on a streaming platform peaking at 700,000 requests per second; built the Next.js "Movies on TV" and "TV Series" sections; led 4 engineers.
 
 ### **Skyeer** — **Lead Frontend Engineer** — _Apr 2017 — Jan 2023_
 
-_Geospatial software startup specializing in drone mapping solutions for enterprise clients_
+- Web-GIS platform for drone data: an MVP in 3 months won 1st place at the Gazprom "Unmanned Biathlon" (accuracy of ±0.02 m³) and 10+ enterprise contracts; resumable uploads up to 100 GB (tus.io); 800+ Selenium E2E tests improved release stability by 80%; led 8 engineers.
 
-- Architected and developed comprehensive web-GIS platform using React, Redux-Saga, and advanced mapping technologies (Mapbox, Cesium, Potree), establishing market position as most accurate measurement solution in geospatial industry
-- Delivered platform MVP in 3 months securing 1st place at Gazprom "Unmanned Biathlon" with ±0.02 m³ accuracy, leading to 10+ enterprise contracts worth $1M+ annually
-- Implemented advanced technical features: resumable uploads up to 100 GB via tus.io, 360° panorama visualization, point cloud processing (10M+ datasets with 60fps WebGL rendering)
-- Created reusable UI component library with 50+ components and React Cosmos playground, reducing development time across multiple projects
-- Led cross-functional team of 8 engineers (4 frontend, 2 backend, 1 QA, 1 Documentation Writer) implementing Agile methodologies with weekly 1:1s and structured career progression
-- Established comprehensive QA automation framework with 800+ Selenium E2E tests, improving release stability by 80% and enabling continuous deployment
-- Implemented internationalization (i18next) supporting English and German markets with comprehensive technical documentation platform
-
-### **Career Development Period** — _May 2015 — Apr 2017_
-
-_Focused on React ecosystem mastery and modern frontend architecture transition_
-
-- **Liga Stavok** (_Sep 2015 — Jan 2016_): Built scalable UI/UX library with 40+ React components and Redux state management
-- **OneTwoTrip** (_May 2015 — Sep 2015_): Developed payment systems and optimized search functionality with significant performance improvements
-- **Ivideon** (_Sep 2016 — Apr 2017_): Extended video surveillance platform with custom timeline components and mobile adaptations
-- Transitioned expertise from jQuery/BackboneJS to modern React ecosystem, developing deep knowledge in Redux architecture and component design patterns
-
-### **Sovzond** — **Senior Frontend Engineer** — _Jun 2013 — May 2015_
-
-_Satellite imagery and geospatial data provider serving government and commercial sectors_
-
-- Designed and delivered comprehensive "Satellite Imagery Archive" SPA using BackboneJS, Leaflet, and Bootstrap with dynamic search capabilities
-- Implemented polygon drawing tools, WMS cadastral data integration, and virtualized table scrolling for large datasets
-- Built cart and account management system for satellite imagery ordering and download workflows
-- Led migration from ExtJS to BackboneJS with full REST API integration and white-label theming capabilities
-- Initiated regression testing program, establishing QA processes and hiring first dedicated testing specialist
+**Earlier roles**: Amediateka — Senior Frontend Engineer, SVOD platform on Next.js (_2019_); Ivideon, REKOD, Liga Stavok, OneTwoTrip — senior and mid-level frontend, jQuery and Backbone to React and Redux (_2015 — 2017_); Sovzond — "Satellite Imagery Archive" SPA, first QA process (_2013 — 2015_); 5 earlier frontend and system-administration roles (_2008 — 2013_).
 
 ## Technical Skills
 
-**Programming Languages**: TypeScript, JavaScript, Python, Go  
-**Frontend Technologies**: React (18), Next.js, Redux, Redux-Saga, React Native, HTML5, CSS3, TailwindCSS, shadcn/ui, WebGL  
-**Backend Technologies**: Node.js, Go (Fiber, GORM), FastAPI, Flask, Express, JWT Authentication  
-**Databases & Caching**: PostgreSQL, Redis  
-**DevOps & Testing**: Docker, Docker Compose, GitHub Actions, GitLab CI/CD, Cypress, Jest, Selenium, E2E testing  
-**Specialized Domains**: Geospatial (CesiumJS, Mapbox GL JS, Leaflet, Potree), Media Streaming (FFmpeg, HLS/DASH), AI/ML APIs (GPT, Claude, Perplexity, LangGraph, LangChain, CrewAI)  
-**Development Tools**: orval (API client generation), Kinde Auth, OpenAPI/Swagger, Docker containerization, automated deployment pipelines
+- **Agent platform & prompt engineering**: Claude Code (Agent Skills with SKILL.md, hooks: PreToolUse, SessionStart, UserPromptSubmit; subagents; plugins; CLAUDE.md, AGENTS.md), MCP servers, context engineering, prompt engineering, spec-driven development, agent orchestration (orchestrator-workers, reviewer and rework loops, human-in-the-loop gates), model routing by role, Codex CLI, Pi (pi.dev agent runtime)
+- **Evals, guardrails & observability**: PreToolUse guards with audit logs, least-privilege tool permissions per mode, promptfoo with LLM-as-judge, RAG with pgvector, per-ticket cost and stage metrics, LLM-driven retrospectives, Uptime Kuma, Sentry
+- **LLM infrastructure**: LiteLLM, Open WebUI, SearXNG, GPU inference (Whisper, embeddings, ComfyUI), pgvector, Supabase, MinIO, Dokploy, Docker Compose, Traefik, Tailscale, n8n
+- **Delivery tooling**: YouTrack (REST and MCP), GitHub CLI, GitHub Actions, Playwright, Cypress, git worktrees
+- **Product stack**: TypeScript, React 19, Electron, Vite, Next.js, Telegram Mini Apps, Chrome Manifest V3, Fastify, Node.js, Bun, Python, Go, PostgreSQL, SQLite, Redis, WebSocket, gRPC, Kubernetes
+- **Languages**: Russian (native), English (professional working proficiency)
 
-## Leadership & Management Skills
+## Speaking & Open Source
 
-- Team Leadership & Cross-functional Collaboration (up to 8 engineers)
-- Technical Architecture & System Design
-- Performance Optimization & Database Scaling
-- Agile/Scrum Methodologies & Sprint Planning
-- Mentoring & Knowledge Transfer Programs
-- A/B Testing & Data-driven Decision Making
+- Seminar "AI and LLM for researchers": one day, 53 slides, FBU VNIILM (federal forestry research institute), 13 May 2026 — [slides](https://github.com/ivan-hilckov/seminar-ai-llm)
+- [yokeloop/yoke](https://github.com/yokeloop/yoke) — Claude Code plugin and marketplace of skills and commands for the full development loop; [projectory-com/sp](https://github.com/projectory-com/sp) — its predecessor
+- [heliotik/botglue.nvim](https://github.com/heliotik/botglue.nvim) — Neovim plugin for AI-assisted inline code editing via the Claude Code CLI
 
 ## Education
 
-**Bachelor of Science in Theoretical Physics**  
-Kuban State University — Graduated 2010  
-_Relevant Coursework: Advanced Mathematics, Statistical Mechanics, Computational Physics programming, Mathematical modeling, Statistical analysis, and Algorithm development_
+**Bachelor of Science in Theoretical Physics** — Kuban State University, 2010
 
-## Portfolio & Demonstrations
+## Availability & Preferences
 
-- **Geospatial Platform Demo**: [UI/UX Skyeer](https://youtu.be/df4GsBd9a_U) • [gource.io: 4 years of Skyeer](https://youtu.be/0VSIHanKoNY?si=Oui7Jj2B3Zbp_Zpj)
-- **Bot Garden Projects**: [hello-bot](https://github.com/ivan-hilckov/hello-bot) | [hello-ai-bot](https://github.com/ivan-hilckov/hello-ai-bot) | [english-teacher-bot](https://github.com/ivan-hilckov/english-teacher-bot)
-
-## Additional Information
-
-- **Availability**: Immediate availability for Lead Frontend Engineer roles at product-focused startups
-- **Work Preferences**: Remote-first, open to hybrid arrangements and international contracts
-- **Target Industries**: AI-powered development platforms, streaming media, geospatial technologies
-
----
-
-[Full CV.pdf](https://github.com/ivan-hilckov/ivan-hilckov/raw/main/CV_FULL.pdf)
+- Immediately available for Lead AI Engineer, Applied AI Engineer, Forward Deployed Engineer and AI-native engineering lead roles; remote-first, open to hybrid arrangements, relocation and international contracts
